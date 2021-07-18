@@ -1,0 +1,372 @@
+body{
+	background-color: #F8F8F8;
+}
+
+#nav-bar{
+	background-color:#63a0ba;
+	position: fixed;
+	width:100%;
+
+	text-align: center;
+	left: 0px;
+	top: 0px;  
+	z-index: 1;
+
+}
+.nav-div{
+	color:white
+}
+
+.nav{
+	
+	margin-top: 0px;
+	padding: 10px;
+
+	line-height: 100px;
+	font-size: 30px;
+
+	border: solid 1px;
+	margin-left: 15px;
+
+}
+
+.nav:hover{
+	background-color: black;
+	color: #63a0ba;
+}
+
+#heading-img{
+	height: 610px;
+	width: 100%; 
+	position: relative;
+	z-index: -2;
+}
+
+#heading-div{
+	
+
+}
+
+#heading-text{
+	font-size: 80px;
+	font-family: monaco;
+	text-align: center;
+	color: white;
+
+	position: absolute;
+    top: 30%;
+    left: 36%;
+     
+	
+}
+#subheading{
+	font-size: 25px;
+	font-family: monaco;
+	text-align: center;
+	color: black;
+	margin-top: -50px;
+	color: white;
+
+	position: absolute;
+   	top: 65%;
+    left: 38%;
+}
+
+#about-container{
+	display: grid;
+	grid-template-columns: auto auto auto; 
+	grid-template-rows: auto auto;
+	justify-content: space-between;
+	margin-top:30px;
+	
+}
+
+.about-item{
+	border: transparent;
+	margin: 20px;
+	background-color: #DCDCDC;
+
+}
+
+.about-imgs{
+	width: 100%;
+
+}
+
+.text{
+	
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+
+	font-family: georgia;
+	
+}
+#bootstrap-title{
+	font-size: 20px;
+	color: green;
+}
+#responsive-design-title{
+	font-size: 20px;
+	color: #1a8cff;
+}
+#parallax-layout-title{
+	font-size: 20px;
+	color: grey;
+}
+#button-green{
+	background-color: green;
+	color: white;
+	border:transparent;
+	border-radius: 5px;
+	font-family: georgia;
+	font-size: 20px;
+	padding:10px;
+	width:50%;
+
+	margin: 0 auto;
+    display: block;
+
+}
+#button-blue{
+	background-color: #1a8cff;
+	color: white;
+	border:transparent;
+	border-radius: 5px;
+	font-family: georgia;
+	font-size: 20px;
+	padding:10px;
+	width:50%;
+
+	margin: 0 auto;
+    display: block;
+	
+}
+#button-red{
+	background-color: grey;
+	color: white;
+	border:transparent;
+	border-radius: 5px;
+	font-family: georgia;
+	font-size: 20px;
+	padding:10px;
+	width:50%;
+
+	margin: 0 auto;
+    display: block;
+	
+}
+button:hover{
+	opacity: 0.7;
+}
+
+#columns{
+	display: flex;
+	flex-direction: row;
+	justify-content: center; 
+	margin-top: 30px;
+}
+	
+.columns-img{
+	width: 100%;
+}
+
+
+.columns-class{
+	border:transparent;
+	background-color: #DCDCDC;
+	 
+	margin:10px;
+}
+
+.columns-text{
+	padding:10px;
+	font-family: georgia;
+
+}
+.column-title{
+	text-align: center;
+	font-size: 20px;
+	line-height: 8px;
+}
+#columns-button{
+	text-align: right;
+	
+}
+#cbutton{
+	font-size: 20px;
+	border:solid 1px grey;
+	border-radius: 5px;
+
+	margin:15px;
+	padding:10px;
+	width:30%;
+
+}
+
+
+
+#services-div{
+
+	margin-top: ;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+
+	background-image: url(https://images.unsplash.com/photo-1541681799731-44dfb98b5a80?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGFyayUyMG1vdW50YWlufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80);
+   	min-height: 300px;
+	background-attachment: fixed;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+
+}
+
+#services-heading{
+	font-family: sans-serif;
+	font-size: 40px;
+	color: white;
+	text-shadow: 2px 2px  #808080;
+	
+}
+#blog{
+	display:grid;
+	grid-template-columns: auto auto auto auto;
+	grid-template-rows: auto; 
+
+	margin-top: 30px;
+}
+.blog-post{
+	background-color: #DCDCDC;
+	margin:10px;
+	padding:;
+}
+
+.blog-text{
+	line-height: 25px;
+	margin:10px;
+}
+.blog-heading{
+	font-size: 20px;
+	text-align: center;
+
+}
+.blog-imgs{
+	width:100%;
+}
+.blog-button{
+	text-align: center;
+	
+
+	
+}
+.inside-button{
+	font-size: 18px;
+	padding:10px;
+	width:50%;
+	border-radius: 10px;
+}
+#section-five{
+	background-color: #DCDCDC;
+	margin:10px;
+	
+}
+#section-five-text{
+	font-family: sans-serif;
+	padding:10px;
+	margin:15px;
+	line-height: 20px;
+	
+}
+#section-five-heading{
+	font-family: sans-serif;
+	font-size: 18px;
+}
+#section-five-img{
+	width:100%;
+
+
+}
+
+#section-five-button{
+	font-size: 16px;
+	border-radius: 6px;
+	border: solid 1px #b3b3b3;
+	padding: 10px;
+	margin:10px;
+	width:15%;
+}
+
+
+
+ .contact-form{
+ 	text-align: center;
+
+ 	display: flex;
+ 	flex-direction: column;
+
+ 	background-image: url("https://wallpaperaccess.com/full/4205720.jpg");
+ 	min-height: 300px;
+	background-attachment: fixed;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ }
+
+
+
+ .format-contact{
+ 	 
+ 	background-color: #DCDCDC;
+ 	opacity: 0.5;
+ 	width: 50%;
+ 	border-radius: 5px;
+ 	 align-self: center;
+
+ 	   
+ 
+ }
+
+ #contact-heading{
+  font-size: 30px;
+  color: white;
+
+ }
+
+ 
+ .contact-input-class{
+ 	margin:10px;
+
+ 	
+}
+input, textarea{
+
+ 	background-color: #DCDCDC;
+ 	opacity: 0.8;
+ 	width: 30%;
+ 	border:transparent;
+ 	border-radius: 5px;
+ 	padding:10px;
+
+ }
+ #message-contact{
+ 	margin-bottom: 20px;
+ }
+
+ #footer{
+ 	border-top:solid 1px #e6e6e6 ;
+ 	margin-top: 20px;
+ 	padding:20px;
+ 	text-align: center;
+
+ }
+
+
+
